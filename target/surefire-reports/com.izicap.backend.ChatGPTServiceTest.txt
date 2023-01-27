@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.izicap.backend.ChatGPTServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.267 s <<< FAILURE! - in com.izicap.backend.ChatGPTServiceTest
+MessageReturnTest  Time elapsed: 0.424 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "okhttp3.Call.execute()" because the return value of "okhttp3.OkHttpClient.newCall(okhttp3.Request)" is null
+	at com.izicap.backend.ChatGPTServiceTest.MessageReturnTest(ChatGPTServiceTest.java:64)
+
